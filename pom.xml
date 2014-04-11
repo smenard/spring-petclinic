@@ -451,7 +451,22 @@
 					<port>9966</port>
 					<path>/petclinic</path>
 				</configuration>
-			</plugin>
+</plugin>
+
+<plugin>
+    <groupId>fr.treeptik.micropaas.maven.plugins</groupId>
+    <artifactId>micropaas-maven-plugin</artifactId>
+    <version>0.0.1</version>
+    <configuration>
+        <urlDockerManager>http://192.168.0.109:4243</urlDockerManager>
+        <containerImage>micropaas/tomcat-mysql</containerImage>
+        <containerName>petclinic-app</containerName>
+        <databaseName>petclinic</databaseName>
+    </configuration>
+</plugin>
+
+
+
 		</plugins>
 	</build>
 
