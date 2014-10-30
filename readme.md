@@ -1,4 +1,4 @@
-# Spring PetClinic Sample Application
+# Spring PetClinic Sample Application Update 1
 
 ## What does it look like?
 -spring-petclinic has been deployed here on cloudfoundry: http://gopetclinic.cfapps.io/
